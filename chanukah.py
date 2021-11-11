@@ -8,9 +8,11 @@ def main(n = int(input())):
         i, t = s.split()
         x = int(t)
         for b in range(x):
+            '''
             if(x == 1):
                 ans = x + 1
                 break
+            '''
             b = b + 1
             c = (c + b)
             ans = c + x
